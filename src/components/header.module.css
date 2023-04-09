@@ -9,3 +9,14 @@
     .header img {
       width: 100px;
     }
+    .logo{
+      grid-area: logo
+      }
+      .footertext{
+      grid-area: footer-text;
+      }
+      .pText {
+        grid-area: h;
+        text-align: center;
+        padding-top: 20px;
+      } 

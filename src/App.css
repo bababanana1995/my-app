@@ -10,14 +10,4 @@ grid-template-columns: 1fr 10fr;
 grid-row-gap: 0px;
 }
 
-.logo{
-grid-area: logo
-}
-.footer-text{
-grid-area: footer-text;
-}
-.pText {
-  grid-area: h;
-  text-align: center;
-  padding-top: 20px;
-} 
+
