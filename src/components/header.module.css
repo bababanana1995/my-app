@@ -1,22 +1,26 @@
 .header {
-    grid-area: h;
-    background: greenyellow;
-    grid-template-areas: 
+  grid-area: h;
+  background: greenyellow;
+  grid-template-areas:
     "logo footer-text";
-    grid-template-columns: 1fr 12fr;
-    display: grid;
-    }
-    .header img {
-      width: 100px;
-    }
-    .logo{
-      grid-area: logo
-      }
-      .footertext{
-      grid-area: footer-text;
-      }
-      .pText {
-        grid-area: h;
-        text-align: center;
-        padding-top: 20px;
-      } 
+  grid-template-columns: 1fr 12fr;
+  display: grid;
+}
+
+.header img {
+  width: 100px;
+}
+
+.logo {
+  grid-area: logo
+}
+.header{
+  background: linear-gradient(90deg, #b9deed, #efefef);
+
+}
+
+.pText {
+  grid-area: h;
+  text-align: center;
+  padding-top: 20px;
+}

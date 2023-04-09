@@ -1,8 +1,9 @@
 .Nav{
     padding-left: 10px;
     grid-area: n;
-    background: greenyellow;
+    background: #b9deed;
   }
+  
   .item{
     color: white;
     text-decoration: none;
