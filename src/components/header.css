@@ -1,0 +1,11 @@
+.header {
+    grid-area: h;
+    background: greenyellow;
+    grid-template-areas: 
+    "logo footer-text";
+    grid-template-columns: 1fr 12fr;
+    display: grid;
+    }
+    .header img {
+      width: 100px;
+    }

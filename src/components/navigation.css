@@ -1,0 +1,11 @@
+.Nav{
+    padding-left: 10px;
+    grid-area: n;
+    background: greenyellow;
+  }
+  .item{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
