@@ -6,8 +6,9 @@
     "i i"
     "ava tex"
     "post post";
-    grid-template-rows: 200px 3fr;
-    grid-template-columns: 5fr 10fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 3fr 6fr;
+
 }
 .big_i {
   width:90%;
@@ -20,7 +21,7 @@
 }
 .position_ava_text{
   grid-area:ava_text;
-  display: grid;
+  /* display: grid; */
 }
 .post_h{
   margin: 30px;
