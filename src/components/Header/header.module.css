@@ -1,18 +1,11 @@
 .header {
-  grid-area: h;
+  width: 85vw;
   background: greenyellow;
-  grid-template-areas:
-    "logo footer-text";
-  grid-template-columns: 1fr 12fr;
-  display: grid;
+  display: flex;
 }
 
 .header img {
   width: 100px;
-}
-
-.logo {
-  grid-area: logo
 }
 .header{
   background: linear-gradient(90deg, #b9deed, #efefef);
@@ -20,7 +13,6 @@
 }
 
 .pText {
-  grid-area: h;
   text-align: center;
   padding-top: 20px;
 }

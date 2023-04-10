@@ -1,0 +1,29 @@
+.main_content {
+  width: 100vw;
+    background: linear-gradient(90deg, #80b7cc, #afcfdc);
+}
+.big_i {
+  width:90%;
+  align-items: center;
+}
+.ava{
+  padding: 10px 20px 10px 100px ;
+  max-width: 200px;
+  max-height: 300px;
+}
+.ava_text{
+  display: flex;
+}
+.post_h{
+  margin: 30px;
+}
+.typ{
+  margin-left: 100px;
+  width: 700px;
+  height: 50px;
+  border-radius: 10px;
+}
+.knopka{
+  margin-left: 720px;
+  border-radius: 30px;
+}
