@@ -14,7 +14,7 @@
 .header_menu{
   display: flex;
   flex-direction: row-reverse;
-width: 80vw;
+width: 40vw;
 align-items: center ;
 justify-content: space-between;
 }

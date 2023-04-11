@@ -3,11 +3,12 @@ import s from './footer.module.css'
 
 const Footer = () => {
     return (
- <footer>
+ <footer className={s.footer}>
     <div>Facebook</div>
     <div>vk</div>
     <div>twitter</div>
     <div>instagram</div>
+
  </footer>
     )
 }
