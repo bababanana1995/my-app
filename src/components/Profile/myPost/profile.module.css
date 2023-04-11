@@ -1,5 +1,5 @@
 .main_content {
-  width: 100vw;
+  width: 85vw;
     background: linear-gradient(90deg, #80b7cc, #afcfdc);
 }
 .big_i {
@@ -17,11 +17,12 @@
 .post_h{
   margin: 30px;
 }
-.typ{
+.pole_vvoda{
   margin-left: 100px;
   width: 700px;
   height: 50px;
   border-radius: 10px;
+  resize: none;
 }
 .knopka{
   margin-left: 720px;

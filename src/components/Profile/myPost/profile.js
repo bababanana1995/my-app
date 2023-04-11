@@ -1,6 +1,6 @@
 import React from 'react'
 import s from './profile.module.css'
-import MyPost from './myPost/Post/MyPost'
+import MyPost from './Post/MyPost'
 
 const Profile = () => {
     return (
@@ -23,7 +23,8 @@ const Profile = () => {
             </div>
             <div className={s.position_posts}>
                 <div className={s.post_h}><h1>My post</h1></div>
-                <div><input className={s.typ} type="text" ></input></div>
+                {/* <div><input className={s.typ} type="text" ></input></div> */}
+                <textarea className={s.pole_vvoda}></textarea>
                 <button className={s.knopka}>Жмяк и всё</button>
                 <MyPost />
 

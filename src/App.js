@@ -2,7 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/Header/header';
 import Navigation from './components/Nav/navigation';
-import Profile from './components/Profile/profile';
+import Profile from './components/Profile/myPost/profile';
+import Footer from './components/Footer/footers';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Navigation />
       <Profile />
       </div>
+      <Footer />
     </div>
   );
 }
