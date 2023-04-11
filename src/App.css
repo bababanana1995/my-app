@@ -1,6 +1,7 @@
 .app_wrapper {
-  width:85vw;
+  width:1200px;
   margin: 0  auto;
+  padding: 0;
 }
 .fl{
   display: flex;
