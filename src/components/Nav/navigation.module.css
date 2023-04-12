@@ -9,8 +9,12 @@
     text-decoration: none;
     cursor: pointer;
   }
-  .active{
+
+  .item:active{
     color: gold;
 
+  }
+  :hover{
+    color: black;
   }
   

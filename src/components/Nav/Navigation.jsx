@@ -4,8 +4,8 @@ import s from './navigation.module.css'
 const Navigation = () => {
     return (
         <nav className={s.Nav}>
-            <div><a className={s.item} href="#">Profile</a></div>
-            <div><a className={`${s.item} ${s.active}`} href="#">Message</a></div>
+            <div><a className={s.item} href="/Profile">Profile</a></div>
+            <div><a className={`${s.item} ${s.active}`} href="/Dialogs">Settings</a></div>
             <div><a className={s.item} href="#">News</a></div>
             <div><a className={s.item} href="#">Music</a></div>
 

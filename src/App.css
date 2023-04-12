@@ -1,11 +1,11 @@
-.app_wrapper {
+.app-wrapper {
   width:1200px;
   margin: 0  auto;
   padding: 0;
 }
-.fl{
+.app-wrapper-content{
   display: flex;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 
 

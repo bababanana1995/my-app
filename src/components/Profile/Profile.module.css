@@ -1,0 +1,23 @@
+.main_content {
+    width: 1000px;
+    background: linear-gradient(90deg, #80b7cc, #afcfdc);
+}
+
+.big_i {
+    width: 90%;
+    align-items: center;
+}
+
+.ava {
+    padding: 10px 20px 10px 100px;
+    max-width: 200px;
+    max-height: 300px;
+}
+
+.ava_text {
+    display: flex;
+}
+
+.post_h {
+    margin: 30px;
+}
