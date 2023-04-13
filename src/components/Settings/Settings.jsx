@@ -5,7 +5,7 @@ const Settings = () => {
 
     return (
         <div className={s.settings_content}>
-            Setting this is
+            <div>Setting this is</div>
 
 
         </div>

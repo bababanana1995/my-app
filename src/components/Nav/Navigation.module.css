@@ -10,8 +10,9 @@
     cursor: pointer;
   }
 
-  .item:active{
-    color: gold;
+  .active{
+    color: black;
+    text-decoration: none;
 
   }
   :hover{

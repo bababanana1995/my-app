@@ -1,3 +1,21 @@
-.dialogs_content {
-
+.name_users{
+    padding-left: 15px;
 }
+/*div a {*/
+/*    text-decoration: none;*/
+/*    color: black;*/
+/*}*/
+
+.dialogs{
+    width: 100%;
+display: flex;
+    background: #80b7cc;
+}
+
+.messages{
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+
+
