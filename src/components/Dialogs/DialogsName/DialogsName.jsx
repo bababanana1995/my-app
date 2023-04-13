@@ -1,5 +1,5 @@
 import React from 'react'
-import s from './DialogsName.module.css'
+import s from './../Dialogs.module.css'
 import {NavLink} from "react-router-dom";
 
 
@@ -11,5 +11,24 @@ const DialogItem = (props) => {
         </div>
     )
 }
+const NameUsers = (props) => {
+    let dialogsData = [
+        {id: 1, name: 'Danil'},
+        {id: 2, name: 'Dima'},
+        {id: 3, name: 'Toma'},
+        {id: 4, name: 'Sasha'},
+        {id: 5, name: 'Jenya'},
+        {id: 6, name: 'Petr'},
+        {id: 7, name: 'Svytoslav'}
+    ]
+    let dialogsElement = dialogsData
+        .map(dialog => <DialogItem name={dialog.name} id={dialog.id}/>)
 
-export default DialogItem
+
+    return (
+        <div className={s.name_users}>{dialogsElement}</div>
+    )
+}
+
+
+export default NameUsers
